@@ -9,7 +9,7 @@ int main() {
     const int SIZE = 20;
 
 	 string disired_name;
-    int disired_quantity=0;
+    int disired hkhlhj jhkh _quanti;
         string name[SIZE] = {"Iphone", "Samsung", "Xiaomi", "Huawei", "Nokia", "Sony", "LG", "HTC", "Motorola", "OnePlus",
                          "Asus", "Realme", "Oppo", "Vivo", "Lenovo", "ZTE", "Meizu", "Alcatel", "BlackBerry", "Honor"};
     double price[SIZE] = {999.99, 899.99, 499.99, 599.99, 299.99, 699.99, 399.99, 199.99, 799.99, 549.99, 649.99,

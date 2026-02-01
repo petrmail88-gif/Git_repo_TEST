@@ -1,0 +1,32 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    // Статичний розмір масиву
+
+    const int SIZE = 20;
+
+    int quantity[SIZE] = {5, 3, 8, 2, 6, 1, 4, 7, 9, 10, 13, 11, 12, 14, 8, 16, 7, 12, 9, 18};
+    string name[SIZE] = {"Iphone", "Samsung", "Xiaomi", "Huawei", "Nokia", "Sony", "LG", "HTC", "Motorola", "OnePlus",
+                         "Asus", "Realme", "Oppo", "Vivo", "Lenovo", "ZTE", "Meizu", "Alcatel", "BlackBerry", "Honor"};
+    double price[SIZE] = {999.99, 899.99, 499.99, 599.99, 299.99, 699.99, 399.99, 199.99, 799.99, 549.99, 649.99,
+                          459.99, 529.99, 579.99, 429.99, 389.99, 359.99, 279.99, 219.99, 749.99};
+
+ string disired_name;
+    int disired_quantity=0;
+    cout<<"Enter name of desired prouduct: ";
+    cin>>disired_name;
+    for(int i=0; i<SIZE; i++){
+        if (disired_name!=name[i]){
+            cout<<"This prouduct is out of stock";
+            break;
+        } else if (disired_name==name[i]){
+            cout<<"Enter the quantity of this prouduct: ";
+            cin>>disired_quantity;
+        }
+    }
+    
+    return 0;
+}

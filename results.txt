@@ -1,0 +1,82 @@
+Olimp@Mount MINGW64 /c/Zeus/Git_repo_TEST (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+_________________________________________________________________________________________
+
+Olimp@Mount MINGW64 /c/Zeus/Git_repo_TEST (main)
+$ git branch
+* main
+  newBranch
+_________________________________________________________________________________________
+
+Olimp@Mount MINGW64 /c/Zeus/Git_repo_TEST (main)
+$ git log
+commit 6d098b1e751d05e83b516f1312a2f0d967810fda (HEAD -> main, origin/main, origin/HEAD)
+Author: Petro <petrmail88@gmail.com>
+Date:   Sun Feb 1 21:03:18 2026 +0200
+
+    створено файл newFile
+
+    Document the process of purchasing and inventory management.
+
+commit 985637bf53fe472cd9ce4b225fc0a261df567e4b
+Merge: 7335d47 c4083d8
+Author: Petro <petrmail88@gmail.com>
+Date:   Sun Feb 1 21:00:56 2026 +0200
+
+    вирішено конфлікт обєднання гілок в файлі Вихідні данні.txt
+
+commit 7335d47dc0c31429321b8388ac54775b9875127c
+Author: Petro <petrmail88@gmail.com>
+Date:   Sun Feb 1 20:54:50 2026 +0200
+
+    відредаговано файлі Вихідні данні.txt
+
+commit c4083d8aebb3b85ed1cf658d6b0c560772e3a82e (origin/newBranch, newBranch)
+Author: Petro <petrmail88@gmail.com>
+Date:   Sun Feb 1 20:34:08 2026 +0200
+
+    змінено 14 рядок в файлі Вихідні данні.txt
+
+commit a41f1c19dbd505528e37cf252853ce0639331233
+Author: Petro <petrmail88@gmail.com>
+Date:   Sun Feb 1 20:33:03 2026 +0200
+
+    додано нові 13 і 14 рядоки в файлі Вихідні данні.txt
+
+commit 4b88808df3f1dc4f4f4ad52bdc4c69f0ff8e3dc7
+Author: Petro <petrmail88@gmail.com>
+Date:   Sun Feb 1 20:31:54 2026 +0200
+
+    видалено 13 рядок в файлі Вихідні данні.txt
+
+commit 2ee489e2a72f63b60103fb352f1450896f99d839
+Author: Petro <petrmail88@gmail.com>
+Date:   Sun Feb 1 20:30:03 2026 +0200
+
+    змінено  файл Вихідні данні.txt
+
+commit 73c1f6910854e7dfe8192e9796c57dfc73487b39
+Author: Petro <petrmail88@gmail.com>
+Date:   Sun Feb 1 20:26:07 2026 +0200
+
+    add file Вихідні данні.txt
+
+commit 54a55b6674aeefc880354c06add9d18114e9732a
+Author: Petro <petrmail88@gmail.com>
+Date:   Sun Feb 1 20:17:15 2026 +0200
+
+    Initial commit
+__________________________________________________________________________________
+
+Olimp@Mount MINGW64 /c/Zeus/Git_repo_TEST (main)
+$ git log --merges
+commit 985637bf53fe472cd9ce4b225fc0a261df567e4b
+Merge: 7335d47 c4083d8
+Author: Petro <petrmail88@gmail.com>
+Date:   Sun Feb 1 21:00:56 2026 +0200
+
+    вирішено конфлікт обєднання гілок в файлі Вихідні данні.txt
